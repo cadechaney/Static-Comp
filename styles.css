@@ -24,6 +24,11 @@ header {
   width: 4vw;
 }
 
+.list-icon {
+  height: 6vh;
+  width: 4vw;
+}
+
 .left-info {
   display: flex;
   justify-content: space-around;
