@@ -29,6 +29,17 @@ header {
   width: 4vw;
 }
 
+.camera-icon {
+  height: 6vh;
+  width: 4vw;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 .left-info {
   display: flex;
   justify-content: space-around;
