@@ -3,39 +3,41 @@
 }
 
 body {
-  border: red solid 2px;
-  height: 100vh;
+  /* border: red solid 2px; */
+  height: 100%;
 }
 
 header {
-  background-color: chartreuse;
-  border: blue solid 2px;
+  /* background-color: chartreuse; */
+  /* border: blue solid 2px; */
+  background-color: #4d4f53;
   height: 20vh;
   display: flex;
   justify-content: space-between;
 }
 
 .title {
-  border: green solid 2px;
+  /* border: green solid 2px; */
   margin-top: 5%;
 }
-
+.list-icon,
+.camera-icon,
 .shares-icon {
-  height: 6vh;
-  width: 4vw;
+  height: 4vh;
+  width: 3vw;
+  margin-right: 5%;
+  
 }
 
-.list-icon {
-  height: 6vh;
-  width: 4vw;
+h3 {
+  color: black;
 }
 
-.camera-icon {
-  height: 6vh;
-  width: 4vw;
+h3:hover {
+  color: #8c1515;
 }
 
-div {
+.icons {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -64,9 +66,49 @@ div {
 }
 
 main {
-  border: orange solid 2px;
+  /* border: orange solid 5px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dddddd;
+}
+
+h1 {
+  border: blue solid 2px;
+  width: 100%;
 }
 
 .fighter-info {
-  border: black solid 2px;
+  border: pink solid 2px;
+  height: 80%;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #8c1515; */
+}
+
+.fighters-row-one {
+  border: blue solid 2px;
+  display: flex;
+  height: 50vh;
+  width: 80vw;
+}
+
+.fighters-row-two {
+  margin-top: 10vh;
+  border: green solid 2px;
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+}
+
+.fighter-details {
+  height: 15vh;
+  width: 10vw;
+  border: red solid 2px;
+  /* margin: 10%; */
 }
