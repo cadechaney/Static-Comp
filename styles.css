@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  background-color: chartreuse;
   border: blue solid 2px;
   height: 20vh;
   display: flex;
