@@ -10,10 +10,24 @@ body {
 header {
   border: blue solid 2px;
   height: 20vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
   border: green solid 2px;
+}
+
+.headerImg {
+  height: 14vh;
+  width: 12vw;
+}
+
+.separate-info {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 main {
