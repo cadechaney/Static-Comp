@@ -19,9 +19,9 @@ header {
   margin-top: 5%;
 }
 
-.headerImg {
-  height: 14vh;
-  width: 12vw;
+.shares-icon {
+  height: 6vh;
+  width: 4vw;
 }
 
 .left-info {
@@ -31,6 +31,11 @@ header {
   /* border: red solid 3px; */
   width: 50vw;
   margin-bottom: 2%;
+}
+
+.header-img {
+  height: 14vh;
+  width: 12vw;
 }
 
 .right-info {
