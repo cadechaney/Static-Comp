@@ -34,6 +34,10 @@ h3 {
   color: black;
 }
 
+.shares-list {
+  color:#8c1515;
+}
+
 h3:hover {
   color: #8c1515;
 }
@@ -79,9 +83,9 @@ main {
 
 h1 {
   border: blue solid 2px;
-  width: 100%;
+  width: 80%;
   margin-bottom: 5%;
-  margin-left: 3%;
+  margin-right: 17%;
 }
 
 .fighter-info {
